@@ -2,14 +2,12 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import FluidBackground from "./FluidBackground";
 
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background layers */}
-      <div className="absolute inset-0 grid-bg" />
-      <div className="absolute inset-0 radial-glow" />
-
+      <FluidBackground />
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         <motion.p
           initial={{ opacity: 0, y: 20 }}

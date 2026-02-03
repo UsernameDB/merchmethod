@@ -3,8 +3,8 @@ import { Instagram, Twitter, Youtube, Mail } from "lucide-react";
 const footerLinks = [
   { label: "Services", href: "#services" },
   { label: "Process", href: "#process" },
-  { label: "Portfolio", href: "#portfolio" },
   { label: "Pricing", href: "#pricing" },
+  { label: "Newsletter", href: "#newsletter" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -17,7 +17,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/10 py-12 px-6">
+    <footer className="border-t border-white/10 py-12 px-6 relative z-10">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
