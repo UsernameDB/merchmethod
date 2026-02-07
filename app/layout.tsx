@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "MerchMethod — We Turn Influence Into Merch",
+  title: "merchmthd — We Turn Influence Into Merch",
   description:
     "Premium influencer merchandise production. Custom apparel, accessories, packaging, and fulfillment — all handled for you.",
 };

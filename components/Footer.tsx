@@ -12,7 +12,7 @@ const socialLinks = [
   { icon: Instagram, href: "#", label: "Instagram" },
   { icon: Twitter, href: "#", label: "Twitter" },
   { icon: Youtube, href: "#", label: "YouTube" },
-  { icon: Mail, href: "mailto:hello@merchmethod.com", label: "Email" },
+  { icon: Mail, href: "mailto:hello@merchmthd.com", label: "Email" },
 ];
 
 export default function Footer() {
@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
             <a href="#" className="text-2xl font-bold gradient-text">
-              MerchMethod
+              merchmthd
             </a>
             <p className="text-gray-400 text-sm mt-2">
               Turning influence into premium merchandise.
@@ -56,7 +56,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-white/5 text-center text-sm text-gray-500">
-          &copy; {new Date().getFullYear()} MerchMethod. All rights reserved.
+          &copy; {new Date().getFullYear()} merchmthd. All rights reserved.
         </div>
       </div>
     </footer>
